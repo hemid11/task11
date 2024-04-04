@@ -130,7 +130,7 @@ function filterByBirthYear(usersArray, year) {
 }
 
 let sortedUsers = sortUsersByUsername(users);
-console.log("Sorted Users:");
+console.log("Istifadeci sayi:");
 sortedUsers.forEach(user => {
     console.log(`Username: ${user.username}, Email: ${user.email}`);
 });
