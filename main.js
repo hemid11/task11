@@ -83,27 +83,6 @@
 
 
 
-// class User {
-//     constructor(username, email , age) {
-//         this.username = username;
-//         this.email = email;
-//         this.age=age;
-//     }
-// }
-// let user1 = new User("Hemid", "hemid03@gmail.com",20);
-// let user2 = new User("Ilkin", "ilkin01@gmail.com",18);
-// let user3 = new User("Rustem", "rustem02@gmail.com",16);
-// let user4 = new User("Cavid", "cavid00@gmail.com",22);
-// let user5 = new User("Emil", "emil001@gmail.com",24);
-// let users = [user1, user2, user3,user4,user5];
-// function sortUsersByUsername(usersArray) {
-//     return usersArray.sort((a, b) => a.username.localeCompare(b.username));
-// }
-// let sortedUsers = sortUsersByUsername(users);
-// sortedUsers.forEach(user => {
-//     console.log(`Username: ${user.username}, Email: ${user.email}`);
-// });
-
 
 
 class User {
